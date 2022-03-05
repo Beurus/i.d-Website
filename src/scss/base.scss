@@ -186,8 +186,13 @@ iframe {
 }
 
 
-
-
+/*-------------------------------------*\
+	Focus Ring
+\*-------------------------------------*/
+*:focus { 
+ outline: 4px solid;
+ outline-offset: 6px;
+}
 
 /*-------------------------------------*\
 	Buttons
@@ -1097,7 +1102,7 @@ $ajax-load-size: 44px;
 	&__link {
 		padding: .2rem 0;
 		margin: 8px 0;
-		display: block;
+		display: inline-block;
 	}
 }
 
